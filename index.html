@@ -4,37 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/71ab8416c3.js" crossorigin="anonymous"></script>
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
         <nav>
-            <input type="search">
-            <h3>Morgan Oakley</h3>
+            <div class="container-nav">
+                <div class="seccion-busqueda">
+                    <i class="fa-solid fa-magnifying-glass avatar lupa"></i>
+                    <input type="search">
+                </div>
+                <div class="seccion-derecha">
+                    <i class="fa-solid fa-bell avatar campana"></i>
+                    <i class="fa-solid fa-user avatar nav-avatar"></i>
+                    <h3>Morgan Oakley</h3>
+                </div>
+            </div>
         </nav>
         <header>
-            <p>Hi there,</p>
-            <h2>Morgan Oakley (@morgan)</h2>
-            <ul>
-                <li><button type="button">New</button></li>
-                <li><button type="button">Upload</button></li>
-                <li><button type="button">Share</button></li>
-            </ul>
+            <div class="container-header">
+                <i class="fa-solid fa-user avatar grande"></i>
+                <div>
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
+                <ul>
+                    <li><button type="button">New</button></li>
+                    <li><button type="button">Upload</button></li>
+                    <li><button type="button">Share</button></li>
+                </ul>
+            </div>
         </header>
         <aside>
-            <h2>Dashboard</h2>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
-            <ul>
-                <li>Settings</li>
-                <li>Suport</li>
-                <li>Privacy</li>
+            <div class="sticky">
+                <i class="aside-iconos titulo fa-solid fa-gauge"></i><div class="aside-texto titulo">Dashboard</div>
+                <i class="aside-iconos fa-solid fa-house"></i><div class="aside-texto">Home</div>
+                <i class="aside-iconos fa-solid fa-address-card"></i><div class="aside-texto">Profile</div>
+                <i class="aside-iconos fa-solid fa-message"></i><div class="aside-texto">Messages</div>
+                <i class="aside-iconos fa-solid fa-clock-rotate-left"></i><div class="aside-texto">History</div>
+                <i class="aside-iconos fa-solid fa-list-check"></i><div class="aside-texto">Tasks</div>
+                <i class="aside-iconos fa-solid fa-users"></i><div class="aside-texto">Communities</div>
+                <i class="aside-iconos fa-solid fa-gear"></i><div class="aside-texto">Settings</div>
+                <i class="aside-iconos fa-solid fa-circle-question"></i><div class="aside-texto">Support</div>
+                <i class="aside-iconos fa-solid fa-shield-halved"></i><div class="aside-texto">Privacy</div>
+            </div>
             </ul>
         </aside>
         <main>
@@ -43,26 +60,56 @@
                 <div class="card">
                     <h3>Your Cool Proyect</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto facere eligendi vero delectus assumenda exercitationem voluptatum? Natus sequi reprehenderit sit suscipit dignissimos, repudiandae cupiditate asperiores, minus at quaerat, exercitationem similique?</p>
+                    <div class="iconos">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Your Cool Proyect</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto facere eligendi vero delectus assumenda exercitationem voluptatum? Natus sequi reprehenderit sit suscipit dignissimos, repudiandae cupiditate asperiores, minus at quaerat, exercitationem similique?</p>
+                    <div class="iconos">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Your Cool Proyect</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto facere eligendi vero delectus assumenda exercitationem voluptatum? Natus sequi reprehenderit sit suscipit dignissimos, repudiandae cupiditate asperiores, minus at quaerat, exercitationem similique?</p>
+                    <div class="iconos">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Your Cool Proyect</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto facere eligendi vero delectus assumenda exercitationem voluptatum? Natus sequi reprehenderit sit suscipit dignissimos, repudiandae cupiditate asperiores, minus at quaerat, exercitationem similique?</p>
+                    <div class="iconos">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Your Cool Proyect</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto facere eligendi vero delectus assumenda exercitationem voluptatum? Natus sequi reprehenderit sit suscipit dignissimos, repudiandae cupiditate asperiores, minus at quaerat, exercitationem similique?</p>
+                    <div class="iconos">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Your Cool Proyect</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto facere eligendi vero delectus assumenda exercitationem voluptatum? Natus sequi reprehenderit sit suscipit dignissimos, repudiandae cupiditate asperiores, minus at quaerat, exercitationem similique?</p>
+                    <div class="iconos">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
                 </div>
             </div>
             <div id="anuncios">
@@ -82,21 +129,33 @@
             </div>
             <div id="trending">
                 <h3>Trending</h3>
-                <div class="trendigs">
-                    <h4>@juancho</h4>
-                    <p>Life Changing App</p>
+                <div class="trendings">
+                    <i class="fa-solid fa-user-graduate avatar"></i>
+                    <div class="cuentas">
+                        <h4>@juancho</h4>
+                        <p>Life Changing App</p>
+                    </div>
                 </div>
-                <div class="trendigs">
-                    <h4>@juancho</h4>
-                    <p>Life Changing App</p>
+                <div class="trendings">
+                    <i class="fa-solid fa-user-astronaut avatar"></i>
+                    <div class="cuentas">
+                        <h4>@juancho</h4>
+                        <p>Life Changing App</p>
+                    </div>
                 </div>
-                <div class="trendigs">
-                    <h4>@juancho</h4>
-                    <p>Life Changing App</p>
+                <div class="trendings">
+                    <i class="fa-solid fa-user-ninja avatar"></i>
+                    <div class="cuentas">
+                        <h4>@juancho</h4>
+                        <p>Life Changing App</p>
+                    </div>
                 </div>
-                <div class="trendigs">
-                    <h4>@juancho</h4>
-                    <p>Life Changing App</p>
+                <div class="trendings">
+                    <i class="fa-solid fa-user-tie avatar"></i>
+                    <div class="cuentas">
+                        <h4>@juancho</h4>
+                        <p>Life Changing App</p>
+                    </div>
                 </div>
             </div>
         </main>
