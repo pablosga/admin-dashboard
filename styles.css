@@ -259,5 +259,26 @@ main {
 .cuentas p {
     margin: 0;
 }
+
+footer {
+    grid-column: 1 / -1;
+    background-color: #1c1917;
+    color: #f5f5f4;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer i {
+    font-size: 20px;
+    color: #f5f5f4;
+}
     
 
