@@ -281,4 +281,61 @@ footer i {
     color: #f5f5f4;
 }
     
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        grid-template-rows: auto auto auto; /* Ajusta las filas */
+    }
+
+    nav {
+        grid-column: 1 / -1; /* Ocupa todo el ancho */
+        grid-row: 1 / 2;
+    }
+
+    .container-nav {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .seccion-busqueda {
+        grid-template-columns: auto 1fr; /* Ajusta la búsqueda */
+        column-gap: 10px;
+    }
+
+    .seccion-derecha {
+        grid-template-columns: repeat(3, auto); /* Ajusta los íconos */
+        justify-content: space-around;
+    }
+
+    aside {
+        grid-column: 1 / -1; /* Ocupa todo el ancho */
+        grid-row: 2 / 3;
+        padding: 5%;
+    }
+
+    main {
+        grid-column: 1 / -1; /* Ocupa todo el ancho */
+        grid-row: 3 / 4;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .container-nav {
+        grid-template-columns: auto; /* Una sola columna */
+        text-align: center;
+    }
+
+    .seccion-busqueda,
+    .seccion-derecha {
+        grid-template-columns: 1fr; /* Ajusta los elementos */
+        justify-content: center;
+    }
+
+    aside {
+        display: none; /* Oculta el menú lateral */
+    }
+}
 
